@@ -1,0 +1,20 @@
+$color-black: #000000;
+$color-white: #fff;
+$color-blue: #2E4DEC;
+$color-main: #151418;
+$color-darkText:  #777779;
+$color-logo: #8739FA;
+$color-shapes: #242329;
+
+.img-fluid {
+  width: 100%;
+}
+
+.darktext {
+  color: $color-darkText;
+}
+
+img {
+  user-select: none;
+  pointer-events: none;
+}

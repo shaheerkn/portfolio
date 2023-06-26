@@ -1,0 +1,21 @@
+.container {
+  max-width: calc(1024px + 50px);
+  padding-inline: 25px;
+  margin-inline: auto;
+}
+
+.col-6 {
+  width: 60%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.col-4 {
+  width: 40%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}

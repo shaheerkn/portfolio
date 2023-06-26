@@ -1,0 +1,302 @@
+.has-bg {
+  background-color: $color-main;
+  color: $color-white;
+}
+
+.homepage {
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 500px;
+    margin-inline: auto;
+  }
+}
+
+.hero {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-bottom: 200px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    max-width: 100px;
+    height: 100px;
+    margin-inline: auto;
+    border: 2px solid $color-logo;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 40px;
+
+    img {
+      height: 100%;
+    border-radius: 50%;
+    }
+  }
+}
+
+.blog-cards {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 45px;
+
+  &__card {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+    }
+  }
+
+  &__img {
+    height: 160px;
+    width: 100%;
+    max-width: 250px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 0;
+
+    @media (max-width: 1024px) {
+      max-width: 100%;
+      height: auto;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    width: calc(100% - 270px);
+
+    @media (max-width: 1024px) {
+      width: 100%;
+    }
+
+    h2 {
+      font-weight: 400;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+
+        @media (hover: hover) {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.blog-archive {
+  margin-block: 150px 500px;
+  font-family: 'Lato', sans-serif;
+
+  @media (max-width: 1024px) {
+    margin-block: 150px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px;
+    margin-block: 30px;
+  }
+
+  * {
+    font-family: inherit;
+  }
+
+  time + * {
+    margin-top: 0 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  h6 {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+
+  p {
+    font-size: 1.375rem;
+    margin-top: 1.25rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #0a0a23;
+  }
+
+  a {
+    color: inherit;
+    text-transform: capitalize;
+  }
+
+  p + p {
+    margin-top: 2.0625rem;
+  }
+
+  p + h2,
+  p + h3,
+  ol + h2,
+  ul + h2,
+  blockquote + h2 {
+    margin-top: 60px;
+  }
+
+  @media (min-width: 1024px) {
+    .container:not(.blog-hero) {
+      padding-right: 300px;
+    }
+  }
+
+  blockquote {
+    padding-left: 30px;
+    position: relative;
+    margin-block: 40px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      border-radius: 10px;
+      background-color: $color-logo;
+    }
+  }
+
+  ol ,ul{
+    list-style-position: outside;
+    padding-left: 30px;
+  }
+
+  li {
+    font-size: 20px;
+    margin-top: 1.25rem;
+    line-height: 35.2px;
+    font-weight: 400;
+    color: #0a0a23;
+  }
+
+  code {
+    background-color: #d8d5d5;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+    h6 {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    p + h2,
+    p + h3,
+    ol + h2,
+    ul + h2,
+    blockquote + h2 {
+      margin-top: 40px;
+    }
+
+    li {
+      font-size: 18px;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding-block: 20px;
+
+  a {
+    color: $color-logo;
+    text-decoration: none;
+  }
+}

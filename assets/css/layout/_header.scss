@@ -1,0 +1,25 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header.has-bg {
+  box-shadow: 0 0 20px black;
+  background-color: #0a0a23;
+}
+
+nav {
+  justify-content: space-between;
+  padding-block: 30px;
+  color: inherit;
+
+  a {
+    color: inherit;
+    font-size: 1.25rem;
+  }
+}
+
+.has-bg nav {
+  padding-block: 15px;
+}

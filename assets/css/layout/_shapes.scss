@@ -1,0 +1,62 @@
+.shape {
+  background-color: $color-shapes;
+  border-radius: 3px;
+  position: absolute;
+  z-index: -1;
+
+  &--small {
+    width: 50px;
+    height: 50px;
+    transform: rotate(5deg);
+  }
+
+  &--x-small {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-5deg);
+
+  }
+
+  &--top-right {
+    top: -10px;
+    right: 300px;
+  }
+
+  &--top-center {
+    top: 50px;
+    right: 30%;
+  }
+
+  &--center {
+    top: 140px;
+    left: 50%;
+  }
+
+  &--top-main {
+    height: 364px;
+    width: 474px;
+    left: -76px;
+    top: 20px;
+    border-radius: 130px;
+    transform: rotate(-41deg);
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &--bottom-main {
+    bottom: 0;
+    right: 0;
+    height: 495px;
+    width: 52%;
+    background-color: $color-shapes;
+    border-top-left-radius: 663px;
+    position: fixed;
+  }
+
+  &--center-right {
+    top: 60%;
+    left: 20%;
+  }
+}
