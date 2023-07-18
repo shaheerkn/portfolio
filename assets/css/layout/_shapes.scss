@@ -46,13 +46,21 @@
   }
 
   &--bottom-main {
-    bottom: 0;
-    right: 0;
-    height: 495px;
-    width: 52%;
+    top: -100px;
+    right: 100px;
+    height: 200px;
+    width: 200px;
     background-color: $color-shapes;
-    border-top-left-radius: 663px;
-    position: fixed;
+    border-radius: 20px;
+    z-index: 2;
+    rotate: 2deg;
+
+    @media (max-width: 768px) {
+      width: 75px;
+      height: 75px;
+      top: 0;
+      right: 20px;
+    }
   }
 
   &--center-right {

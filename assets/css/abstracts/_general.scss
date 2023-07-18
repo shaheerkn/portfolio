@@ -14,3 +14,31 @@
 header .social-icons {
   margin-top: 0;
 }
+
+.post-tag {
+  a {
+    color: $color-logo;
+    text-decoration: none;
+  }
+}
+
+.portfolio {
+  margin-top: 50px;
+
+  &__logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  
+    a {
+      color: $color-white;
+      font-size: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+.text-left {
+  text-align: left;
+}

@@ -1,5 +1,10 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 .has-bg {
-  background-color: $color-main;
+  background-color: #14121c;
   color: $color-white;
 }
 
@@ -31,8 +36,17 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-    padding-bottom: 200px;
+
+    &.main-hero {
+      padding-block: 200px;
+      min-height: 80vh;
+
+      @media (max-width: 768px) {
+        height: auto;
+        padding-block: 200px 100px;
+      }
+    }
+
   }
 
   h3 {
@@ -298,5 +312,68 @@ footer {
   a {
     color: $color-logo;
     text-decoration: none;
+  }
+}
+
+.about-us {
+  width: 100%;
+  background-color: #14121c;
+  height: 100vh;
+  display: flex;
+  font-size: 20px;
+  position: relative;
+
+  h2 {
+    font-size: 100px;
+    color: #221d36;
+  }
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding-block: 100px;
+
+    pre {
+    font-size: 9px;
+    }
+
+    h2 {
+      font-size: 38px;
+    }
+  }
+
+  .scope {
+    color: red;
+  }
+
+  .method {
+    color: #5918df;
+  }
+
+  .propname {
+    color: #eeff31;
+  }
+
+  .string {
+    color: #24e33a;
+
+    a {
+      color: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .dot {
+    color: #3b3553;
+  }
+
+  .vname {
+    color: #24e394;
+  }
+
+  .comment {
+    color: #78707e;
+    font-size: 16px;
   }
 }

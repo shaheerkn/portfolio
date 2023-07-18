@@ -32,7 +32,6 @@
 
 <?php if (is_front_page() ) :?>
   <div class="shape shape--top-main"></div>
-  <div class="shape shape--bottom-main"></div>
   <div class="shape shape--small shape--top-right"></div>
   <div class="shape shape--small shape--top-center"></div>
   <div class="shape shape--x-small shape--center"></div>
@@ -72,6 +71,6 @@
     ?>
   </nav>
 </header>
-
+<main>
 <?php
   ?>

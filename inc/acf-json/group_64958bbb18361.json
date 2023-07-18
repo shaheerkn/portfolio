@@ -58,7 +58,7 @@
                     "choices": {
                         "linkedin": "LinkedIn",
                         "codepen": "Codepen",
-                        "github": "Github"
+                        "Github": "Github"
                     },
                     "default_value": false,
                     "return_format": "value",
@@ -108,5 +108,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1687522935
+    "modified": 1688927281
 }
