@@ -20,7 +20,7 @@
   </a>
   <?php endif; ?>
   <div class="blog-cards__content">
-    <p class="post-tag"><?php get_template_part( 'template-parts/meta/post', 'tag' ); ?></p>
+    <p class="post-tag" disabled><?php get_template_part( 'template-parts/meta/post', 'tag' ); ?></p>
     <?php the_title( '<h2><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );?>
   </div>
 </article>
