@@ -301,6 +301,10 @@ html {
     li {
       font-size: 18px;
     }
+
+    iframe {
+      margin-block: 20px;
+    }
   }
 }
 
@@ -387,7 +391,7 @@ footer {
     }
   }
 
-  .for-nobile {
+  .for-mobile {
     @media (min-width: 500px) {
       display: none;
     }

@@ -648,7 +648,7 @@ footer a {
 }
 
 @media (min-width: 500px) {
-	.about-us .for-nobile {
+	.about-us .for-mobile {
 		display: none;
 	}
 }
