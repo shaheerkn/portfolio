@@ -40,14 +40,13 @@
   <span class="dot">··</span><span class="propname">portfolio()</span> {
   <span class="dot">····</span><span class="method">return</span> [
   <span class="dot">······</span>{ <span class="string">'Softoo' : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'Wishin' : <a href="https://wishin.org/" target="_blank">'https://wishin.org/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'Joovv' : <a href="https://joovv.com/" target="_blank">'https://joovv.com/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'SCT' : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'Stermo' : <a href="https://stremo.in/" target="_blank">'https://stremo.in/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'SCT'    : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
   <span class="dot">····</span>]
   <span class="dot">··</span>}
   <span class="dot">··</span><span class="propname">skills()</span> {
   <span class="dot">····</span><span class="method">return</span> [ <span class="string">'HTML', 'CSS', 'JAVASCRIPT', 'Bootstrap', 'Tailwind', </span>
-  <span class="dot">............</span><span class="string">'Webpack/Gulp/Vite', 'SCSS/Less', 'npm/yarn', 'Figma/Sketch', 
+  <span class="dot">............</span><span class="string">'Webpack/Gulp/Vite', 'SCSS/Less', 'npm/yarn', 'Figma/Sketch',
   <span class="dot">............</span>'Webflow'</span> ]
   <span class="dot">··</span>}
   }
@@ -72,13 +71,12 @@
 <span class="dot">··</span><span class="propname">portfolio()</span> {
 <span class="dot">····</span><span class="method">return</span> [
 <span class="dot">······</span>{ <span class="string">'Softoo' : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
-<span class="dot">······</span>{ <span class="string">'Wishin' : <a href="https://wishin.org/" target="_blank">'https://wishin.org/'</a> </span>}
-<span class="dot">······</span>{ <span class="string">'Joovv' : <a href="https://joovv.com/" target="_blank">'https://joovv.com/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'Stremo' : <a href="https://stremo.in/" target="_blank">'https://stremo.in/'</a> </span>}
 <span class="dot">······</span>{ <span class="string">'SCT' : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
 <span class="dot">····</span>]
 <span class="dot">··</span>}
 <span class="dot">··</span><span class="propname">skills()</span> {
-<span class="dot">····</span><span class="method">return</span> [ <span class="string">'HTML', 'CSS', 'JAVASCRIPT', 
+<span class="dot">····</span><span class="method">return</span> [ <span class="string">'HTML', 'CSS', 'JAVASCRIPT',
 <span class="dot">.............</span>'Bootstrap', 'Tailwind', 'SCSS/Less' </span>
 <span class="dot">............</span><span class="string">'Webpack/Gulp/Vite', 'npm/yarn',
 <span class="dot">............</span>'Figma/Sketch', 'Webflow'</span> ]

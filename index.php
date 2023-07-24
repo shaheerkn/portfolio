@@ -18,7 +18,7 @@ get_header();
 	<main>
     <section class="blog-cards container">
 		<?php if ( have_posts() ) : ?>
-			<h1 class="uppercase text-left">Writing:</h1>
+			<h1 class="uppercase text-left"><?php single_post_title(); ?></h1>
 		<?php
 
 			/* Start the Loop */
