@@ -375,5 +375,21 @@ footer {
   .comment {
     color: #78707e;
     font-size: 16px;
+
+    @media (max-width: 1024px) {
+      font-size: 9px;
+    }
   }
-}
+
+  .for-desktop {
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+
+  .for-nobile {
+    @media (min-width: 500px) {
+      display: none;
+    }
+  }
+  }
