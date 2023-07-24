@@ -54,36 +54,36 @@
 </pre>
 
 <pre class="for-mobile">
-  <span class="method">class</span> <span class="propname">Shaheerkn</span> {
-  <span class="dot">··</span><span class="comment">// I can, because I did.</span>
-  <span class="dot">··</span><span class="comment">// My vast variety of skills is continuously expanding.</span>
-  <span class="dot">··</span><span class="method">constructor()</span> {
-  <span class="dot">····</span><span class="scope">this</span>.<span class="vname">name</span> = 'Muhammad Shaheer'
-  <span class="dot">····</span><span class="scope">this</span>.<span class="vname">dayOfBirthTimestamp</span> = 602745592
-  <span class="dot">····</span><span class="scope">this</span>.<span class="vname">email</span> = 'shaheerkn30@gmail.com'
-  <span class="dot">··</span>}
-  <span class="dot">··</span><span class="propname">workExperience()</span> {
-  <span class="dot">····</span><span class="method">return</span> [
-  <span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer at Uptek' </span>}
-  <span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer at Softoo' </span>}
-  <span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer at Upwork' </span>}
-  <span class="dot">····</span>]
-  <span class="dot">··</span>}
-  <span class="dot">··</span><span class="propname">portfolio()</span> {
-  <span class="dot">····</span><span class="method">return</span> [
-  <span class="dot">······</span>{ <span class="string">'Softoo' : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'Wishin' : <a href="https://wishin.org/" target="_blank">'https://wishin.org/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'Joovv' : <a href="https://joovv.com/" target="_blank">'https://joovv.com/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'SCT' : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
-  <span class="dot">····</span>]
-  <span class="dot">··</span>}
-  <span class="dot">··</span><span class="propname">skills()</span> {
-  <span class="dot">····</span><span class="method">return</span> [ <span class="string">'HTML', 'CSS', 'JAVASCRIPT', 
-  <span class="dot">.............</span>'Bootstrap', 'Tailwind', 'SCSS/Less' </span>
-  <span class="dot">............</span><span class="string">'Webpack/Gulp/Vite', 'npm/yarn', 'Figma/Sketch', 
-  <span class="dot">............</span>'Webflow'</span> ]
-  <span class="dot">··</span>}
-  }
+<span class="method">class</span> <span class="propname">Shaheerkn</span> {
+<span class="dot">··</span><span class="comment">// I can, because I did.</span>
+<span class="dot">··</span><span class="comment">// My vast variety of skills is continuously expanding.</span>
+<span class="dot">··</span><span class="method">constructor()</span> {
+<span class="dot">····</span><span class="scope">this</span>.<span class="vname">name</span> = 'Muhammad Shaheer'
+<span class="dot">····</span><span class="scope">this</span>.<span class="vname">dayOfBirthTimestamp</span> = 602745592
+<span class="dot">····</span><span class="scope">this</span>.<span class="vname">email</span> = 'shaheerkn30@gmail.com'
+<span class="dot">··</span>}
+<span class="dot">··</span><span class="propname">workExperience()</span> {
+<span class="dot">····</span><span class="method">return</span> [
+<span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer at Uptek' </span>}
+<span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer at Softoo' </span>}
+<span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer at Upwork' </span>}
+<span class="dot">····</span>]
+<span class="dot">··</span>}
+<span class="dot">··</span><span class="propname">portfolio()</span> {
+<span class="dot">····</span><span class="method">return</span> [
+<span class="dot">······</span>{ <span class="string">'Softoo' : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'Wishin' : <a href="https://wishin.org/" target="_blank">'https://wishin.org/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'Joovv' : <a href="https://joovv.com/" target="_blank">'https://joovv.com/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'SCT' : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
+<span class="dot">····</span>]
+<span class="dot">··</span>}
+<span class="dot">··</span><span class="propname">skills()</span> {
+<span class="dot">····</span><span class="method">return</span> [ <span class="string">'HTML', 'CSS', 'JAVASCRIPT', 
+<span class="dot">.............</span>'Bootstrap', 'Tailwind', 'SCSS/Less' </span>
+<span class="dot">............</span><span class="string">'Webpack/Gulp/Vite', 'npm/yarn',
+<span class="dot">............</span>'Figma/Sketch', 'Webflow'</span> ]
+<span class="dot">··</span>}
+}
 </pre>
 </div>
 </section>
