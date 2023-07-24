@@ -653,6 +653,12 @@ footer a {
 	}
 }
 
+@media (max-width: 768px) {
+	.about-us .container {
+		padding-inline: 10px;
+	}
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
