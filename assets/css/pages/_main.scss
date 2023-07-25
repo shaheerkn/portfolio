@@ -322,7 +322,8 @@ footer {
 .about-us {
   width: 100%;
   background-color: #14121c;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   display: flex;
   font-size: 20px;
   position: relative;
