@@ -583,6 +583,7 @@ footer a {
 	display: flex;
 	font-size: 20px;
 	position: relative;
+	margin-bottom: 100px;
 }
 
 .about-us h2 {
@@ -594,6 +595,7 @@ footer a {
 	.about-us {
 		height: auto;
 		padding-block: 100px;
+		margin-bottom: 0;
 	}
 	.about-us pre {
 		font-size: 9px;

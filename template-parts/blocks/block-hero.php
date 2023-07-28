@@ -32,16 +32,27 @@
   <span class="dot">··</span>}
   <span class="dot">··</span><span class="propname">workExperience()</span> {
   <span class="dot">····</span><span class="method">return</span> [
-  <span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer at Uptek' </span>}
-  <span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer at Softoo' </span>}
-  <span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer at Upwork' </span>}
+  <span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer - Uptek' </span>}
+  <span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer - Softoo' </span>}
+  <span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer - SCT' </span>}
+  <span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer - Upwork' </span>}
   <span class="dot">····</span>]
   <span class="dot">··</span>}
   <span class="dot">··</span><span class="propname">portfolio()</span> {
   <span class="dot">····</span><span class="method">return</span> [
-  <span class="dot">······</span>{ <span class="string">'Softoo' : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'Stremo' : <a href="https://stremo.in/" target="_blank">'https://stremo.in/'</a> </span>}
-  <span class="dot">······</span>{ <span class="string">'SCT'    : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'backflip' : <a href="https://letsbackflip.com/" target="_blank">'https://letsbackflip.com/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'farminbox': <a href="https://www.farminbox.in/" target="_blank">'https://www.farminbox.in/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'Joovv'    : <a href="https://joovv.com/" target="_blank">'https://joovv.com/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'softoo'   : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'smile'    : <a href="https://smileumzug.ch/" target="_blank">'https://smileumzug.ch'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'stremo'   : <a href="https://stremo.in/" target="_blank">'https://stremo.in/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'sct'      : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
+  <span class="dot">······</span>{ <span class="string">'fluidbio' : <a href="https://fluidbiomed.com/" target="_blank">'https://fluidbiomed.com/'</a> </span>}
+  <span class="dot">····</span>]
+  <span class="dot">··</span>}
+  <span class="dot">··</span><span class="propname">funProjects()</span> {
+  <span class="dot">····</span><span class="method">return</span> [
+  <span class="dot">······</span>{ <span class="string"><a href="https://shaheerkn.github.io/CheckYourScreenResolution/" target="_blank">'what is my screen resolution'</a> </span>}
   <span class="dot">····</span>]
   <span class="dot">··</span>}
   <span class="dot">··</span><span class="propname">skills()</span> {
@@ -63,25 +74,30 @@
 <span class="dot">··</span>}
 <span class="dot">··</span><span class="propname">workExperience()</span> {
 <span class="dot">····</span><span class="method">return</span> [
-<span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer at Uptek' </span>}
-<span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer at Softoo' </span>}
-<span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer at Upwork' </span>}
+<span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer - Uptek' </span>}
+<span class="dot">······</span>{ <span class="string">'2023-now' : 'Freelance developer - SCT' </span>}
+<span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer - Softoo' </span>}
+<span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer - Upwork' </span>}
 <span class="dot">····</span>]
 <span class="dot">··</span>}
 <span class="dot">··</span><span class="propname">portfolio()</span> {
 <span class="dot">····</span><span class="method">return</span> [
-<span class="dot">······</span>{ <span class="string">'Softoo' : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
-<span class="dot">······</span>{ <span class="string">'Stremo' : <a href="https://stremo.in/" target="_blank">'https://stremo.in/'</a> </span>}
-<span class="dot">······</span>{ <span class="string">'SCT' : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'farminbox': <a href="https://www.farminbox.in/" target="_blank">'https://www.farminbox.in/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'Joovv'    : <a href="https://joovv.com/" target="_blank">'https://joovv.com/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'softoo'   : <a href="https://softoo.co/" target="_blank">'https://softoo.co/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'smile'    : <a href="https://smileumzug.ch/" target="_blank">'https://smileumzug.ch'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'stremo'   : <a href="https://stremo.in/" target="_blank">'https://stremo.in/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'sct'      : <a href="https://www.sctechglobal.com/" target="_blank">'https://sctechglobal.com/'</a> </span>}
+<span class="dot">······</span>{ <span class="string">'fluidbio' : <a href="https://fluidbiomed.com/" target="_blank">'https://fluidbiomed.com/'</a> </span>}
 <span class="dot">····</span>]
 <span class="dot">··</span>}
 <span class="dot">··</span><span class="propname">skills()</span> {
 <span class="dot">····</span><span class="method">return</span> [ <span class="string">'HTML', 'CSS', 'JAVASCRIPT',
 <span class="dot">.............</span>'React', 'Vue.js',
 <span class="dot">.............</span>'Bootstrap', 'Tailwind', 'SCSS/Less' </span>
-<span class="dot">............</span><span class="string">'Webpack/Gulp', 'npm/yarn',
-<span class="dot">............</span>'Figma/Sketch', 'Webflow'
-<span class="dot">............</span>'Wordpress'</span> ]
+<span class="dot">.............</span><span class="string">'Webpack/Gulp', 'npm/yarn',
+<span class="dot">.............</span>'Figma/Sketch', 'Webflow'
+<span class="dot">.............</span>'Wordpress'</span> ]
 <span class="dot">··</span>}
 }
 </pre>
