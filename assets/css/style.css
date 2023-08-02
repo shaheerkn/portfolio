@@ -311,7 +311,7 @@ html {
 }
 
 .hero__img {
-	max-width: 100px;
+	width: 100px;
 	height: 100px;
 	margin-inline: auto;
 	border: 2px solid #8739FA;
