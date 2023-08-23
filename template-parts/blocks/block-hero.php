@@ -33,8 +33,8 @@
   <span class="dot">··</span><span class="propname">workExperience()</span> {
   <span class="dot">····</span><span class="method">return</span> [
   <span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer - Uptek' </span>}
-  <span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer - Softoo' </span>}
-  <span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer - SCT' </span>}
+  <span class="dot">······</span>{ <span class="string">'2022-now' : 'Freelance developer - Softoo' </span>}
+  <span class="dot">······</span>{ <span class="string">'2022-now' : 'Freelance developer - SCT' </span>}
   <span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer - Upwork' </span>}
   <span class="dot">····</span>]
   <span class="dot">··</span>}
@@ -75,8 +75,8 @@
 <span class="dot">··</span><span class="propname">workExperience()</span> {
 <span class="dot">····</span><span class="method">return</span> [
 <span class="dot">······</span>{ <span class="string">'2022-now' : 'Frontend developer - Uptek' </span>}
-<span class="dot">······</span>{ <span class="string">'2023-now' : 'Freelance developer - SCT' </span>}
-<span class="dot">······</span>{ <span class="string">'2021-now' : 'Freelance developer - Softoo' </span>}
+<span class="dot">······</span>{ <span class="string">'2022-now' : 'Freelance developer - SCT' </span>}
+<span class="dot">······</span>{ <span class="string">'2022-now' : 'Freelance developer - Softoo' </span>}
 <span class="dot">······</span>{ <span class="string">'2020-now' : 'Freelance developer - Upwork' </span>}
 <span class="dot">····</span>]
 <span class="dot">··</span>}
