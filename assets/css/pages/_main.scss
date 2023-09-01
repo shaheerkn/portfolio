@@ -136,7 +136,7 @@ html {
 }
 
 .blog-archive {
-  margin-block: 150px 500px;
+  margin-block: 150px 200px;
   font-family: 'Lato', sans-serif;
 
   @media (max-width: 1024px) {
@@ -261,6 +261,10 @@ html {
     border-radius: 5px;
   }
 
+  iframe {
+    margin-block: 20px;
+  }
+
   @media (max-width: 1024px) {
     h1 {
       font-size: 32px;
@@ -300,10 +304,6 @@ html {
 
     li {
       font-size: 18px;
-    }
-
-    iframe {
-      margin-block: 20px;
     }
   }
 }

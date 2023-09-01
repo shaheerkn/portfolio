@@ -400,7 +400,7 @@ html {
 }
 
 .blog-archive {
-	margin-block: 150px 500px;
+	margin-block: 150px 200px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -527,6 +527,10 @@ html {
 	border-radius: 5px;
 }
 
+.blog-archive iframe {
+	margin-block: 20px;
+}
+
 @media (max-width: 1024px) {
 	.blog-archive h1 {
 		font-size: 32px;
@@ -558,9 +562,6 @@ html {
 	}
 	.blog-archive li {
 		font-size: 18px;
-	}
-	.blog-archive iframe {
-		margin-block: 20px;
 	}
 }
 
