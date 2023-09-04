@@ -1,7 +1,14 @@
 <section class="hero text-center">
   <div class="container main-hero">
     <div class="hero__img" aria-hidden="true">
-      <?php  ja_get_attachment( get_sub_field( 'image' ), '', 'img-fluid', true ) ;?>
+      <?php
+        $image_attributes = array(
+            'class' => 'img-fluid',
+            'fetchPriority' => 'high',
+        );
+
+        ja_get_attachment(get_sub_field('image'), '', $image_attributes, true);
+      ?>
     </div>
     <div>
       <h1><?php echo get_sub_field('title');?> <span id="typed5"></span></h1>
