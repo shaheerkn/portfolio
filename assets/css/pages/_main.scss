@@ -41,6 +41,10 @@ html {
       padding-block: 200px;
       min-height: 80vh;
 
+      @media (min-width: 1920px) {
+        min-height: auto;
+      }
+
       @media (max-width: 768px) {
         height: auto;
         padding-block: 200px 100px;
@@ -328,6 +332,10 @@ footer {
   font-size: 20px;
   position: relative;
   margin-bottom: 100px;
+
+  @media (min-width: 1920px) {
+    min-height: auto;
+  }
 
   h2 {
     font-size: 100px;

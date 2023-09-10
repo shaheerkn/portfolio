@@ -299,6 +299,12 @@ html {
 	min-height: 80vh;
 }
 
+@media (min-width: 1920px) {
+	.hero .container.main-hero {
+		min-height: auto;
+	}
+}
+
 @media (max-width: 768px) {
 	.hero .container.main-hero {
 		height: auto;
@@ -585,6 +591,12 @@ footer a {
 	font-size: 20px;
 	position: relative;
 	margin-bottom: 100px;
+}
+
+@media (min-width: 1920px) {
+	.about-us {
+		min-height: auto;
+	}
 }
 
 .about-us h2 {
