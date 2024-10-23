@@ -12,7 +12,7 @@
 ?>
 </main>
 <footer>
-  <?php _e( 'Designed and coded by', 'shaheer'); ?> <a href="https://www.linkedin.com/in/shaheerkn/" target="_blank"><?php _e( '@shaheer', 'shaheer'); ?></a>
+  <?php _e( 'Designed and coded by', 'shaheer'); ?> <a href="#" target="_blank"><?php _e( '@shaheer', 'shaheer'); ?></a>
 </footer>
 
 <?php wp_footer(); ?>
