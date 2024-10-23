@@ -143,6 +143,7 @@ function shaheer_scripts() {
 	// wp_style_add_data( 'shaheer-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'gsap', get_template_directory_uri() . '/assets/js/gsap.min.js', ['jquery'], false, true );
+	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/assets/js/swiper.js', ['jquery'], false, true );
   wp_enqueue_script( 'scrollTrigger', get_template_directory_uri() . '/assets/js/scrollTrigger.min.js', ['jquery'], false, true );
   wp_enqueue_script( 'typed', 'https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js', ['jquery'], false, true );
   wp_enqueue_script( 'theme', get_template_directory_uri() . '/assets/js/index.js', ['jquery'], false, true );

@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .has-bg {
   background-color: #14121c;
   color: $color-white;
@@ -329,9 +333,9 @@ footer {
 .about-us {
   width: 100%;
   background-color: #14121c;
-  min-height: 100vh;
   height: auto;
   display: flex;
+  flex-direction: column;
   font-size: 20px;
   position: relative;
   margin-bottom: 100px;
@@ -340,80 +344,59 @@ footer {
     min-height: auto;
   }
 
-  h2 {
-    font-size: 100px;
+  h2, h2 a {
+    font-size: 80px;
     color: #221d36;
+    position: absolute;
+    left: -50px;
+    top: 0;
+    z-index:1;
   }
 
-  @media (max-width: 768px) {
-    height: auto;
-    padding-block: 100px;
-    margin-bottom: 0;
-
-    pre {
-    font-size: 9px;
-    }
-
-    h2 {
-      font-size: 38px;
-    }
-  }
-
-  .scope {
-    color: red;
-  }
-
-  .method {
-    color: #5918df;
-  }
-
-  .propname {
-    color: #eeff31;
-  }
-
-  .string {
-    color: #24e33a;
-
-    a {
-      color: inherit;
-      font-size: inherit;
-      font-weight: inherit;
-      text-decoration: none;
-    }
-  }
-
-  .dot {
-    color: #3b3553;
-  }
-
-  .vname {
-    color: #24e394;
-  }
-
-  .comment {
-    color: #78707e;
-    font-size: 16px;
-
-    @media (max-width: 1024px) {
-      font-size: 9px;
-    }
-  }
-
-  .for-desktop {
-    @media (max-width: 500px) {
-      display: none;
-    }
-  }
-
-  .for-mobile {
-    @media (min-width: 500px) {
-      display: none;
-    }
+  h2 a {
+    position: static;
+    text-decoration: underline;
   }
 
   .container {
-    @media (max-width: 768px) {
-      padding-inline: 10px;
+    position: relative;
+    padding-top: 90px;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  a {
+    color: #24e33a;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    z-index: 1;
+    position: relative;
+  }
+
+  a span {
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  @media (max-width: 1200px) {
+    h2 {
+      font-size: 24px;
+      left: 0;
+    }
+
+    .container {
+      padding-top: 20px;
+    }
+
+    a {
+      font-size: 16px;
+
+      span {
+        font-size: 12px;
+      }
     }
   }
 }
+

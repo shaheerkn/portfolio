@@ -12,7 +12,6 @@ header {
 
 header.has-bg {
   box-shadow: 0 0 20px black;
-  background-color: #0a0a23;
 }
 
 nav {
@@ -32,4 +31,15 @@ nav {
 
 .has-bg nav {
   padding-block: 15px;
+}
+
+.swiper {
+  margin-top: 100px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
 }

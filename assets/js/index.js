@@ -42,3 +42,11 @@ gsap.to('.shape--bottom-main', {
   y: -200
 })
 
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+  loop: true,
+  autoplay: {
+    delay: 1000,
+  }
+});
