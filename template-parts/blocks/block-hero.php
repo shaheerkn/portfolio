@@ -27,7 +27,7 @@
 <section class="about-us text-left" id="about">
   <div class="shape shape--bottom-main"></div>
     <div class="container">
-      <h2>Shopify</h2>
+      <h2>Shopify Projects:</h2>
       <a href="#">https://joovv.com</a>
       <a href="#">https://morganjuliadesigns.com</a>
       <a href="#">https://flybean.com</a>
@@ -43,7 +43,7 @@
     </div>
 
     <div class="container">
-      <h2>Wordpress</h2>
+      <h2>Wordpress Projects:</h2>
       <a href="#">https://letsbackflip.com/ <span>(Wordpress Custom Theme)</span></a>
       <a href="#">https://wishin.org/ <span>(Wordpress Custom Theme)</span></a>
       <a href="#">https://rockabledesign.com/ <span>(Wordpress Custom Theme)</span></a>
@@ -51,9 +51,9 @@
       <a href="#">https://uptek.com/ <span>(Custom: HTML, SCSS, Wordpress)</span></a>
       <a href="#">https://www.nationalchildrensalliance.org/ <span>(Custom: HTML, SCSS, Wordpress)</span></a>
     </div>
-    
+
     <div class="container">
-      <h2>Custom</h2>
+      <h2>Other:</h2>
       <a href="#">https://sctechglobal.com/ <span>(Custom: HTML, CSS, JS)</span></a>
       <a href="#">https://softoo.co/ <span>(Custom: HTML, CSS, JS)</span></a>
       <a href="#">https://www.farminbox.in/ <span>(Custom: HTML, CSS, React)</span></a>
