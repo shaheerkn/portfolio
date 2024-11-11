@@ -28,55 +28,53 @@
   <div class="shape shape--bottom-main"></div>
     <div class="container">
       <h2>Shopify Projects:</h2>
-      <a href="#">https://joovv.com</a>
-      <a href="#">https://morganjuliadesigns.com</a>
-      <a href="#">https://flybean.com</a>
-      <a href="#">https://www.hudsonvalleyfisheries.com</a>
-      <a href="#">https://pixiewing.com</a>
-      <a href="#">https://stockyardx.com</a>
-      <a href="#">https://gods-elf.com</a>
-      <a href="#">https://www.arcadian.ai</a>
-      <a href="#">https://jw-mybestie.com</a>
-      <a href="#">https://shopchicallure.com</a>
-      <a href="#">https://lastaristocrat.com</a>
-      <a href="#">https://hairsecretsextensions.com.au</a>
+      <a href="https://joovv.com">https://joovv.com</a>
+      <a href="https://morganjuliadesigns.com">https://morganjuliadesigns.com</a>
+      <a href="https://flybean.com">https://flybean.com</a>
+      <a href="https://www.hudsonvalleyfisheries.com">https://www.hudsonvalleyfisheries.com</a>
+      <a href="https://pixiewing.com">https://pixiewing.com</a>
+      <a href="https://stockyardx.com">https://stockyardx.com</a>
+      <a href="https://gods-elf.com">https://gods-elf.com</a>
+      <a href="https://www.arcadian.ai">https://www.arcadian.ai</a>
+      <a href="https://jw-mybestie.com">https://jw-mybestie.com</a>
+      <a href="https://shopchicallure.com">https://shopchicallure.com</a>
+      <a href="https://lastaristocrat.com">https://lastaristocrat.com</a>
+      <a href="https://hairsecretsextensions.com.au">https://hairsecretsextensions.com.au</a>
     </div>
 
     <div class="container">
       <h2>Wordpress Projects:</h2>
-      <a href="#">https://letsbackflip.com/ <span>(Wordpress Custom Theme)</span></a>
-      <a href="#">https://wishin.org/ <span>(Wordpress Custom Theme)</span></a>
-      <a href="#">https://rockabledesign.com/ <span>(Wordpress Custom Theme)</span></a>
-      <a href="#">https://rockabledesign.com/v2/ <span>(Wordpress Custom Theme)</span></a>
-      <a href="#">https://uptek.com/ <span>(Custom: HTML, SCSS, Wordpress)</span></a>
-      <a href="#">https://www.nationalchildrensalliance.org/ <span>(Custom: HTML, SCSS, Wordpress)</span></a>
+      <a href="https://letsbackflip.com/">https://letsbackflip.com/ <span>(Wordpress Custom Theme)</span></a>
+      <a href="https://wishin.org/">https://wishin.org/ <span>(Wordpress Custom Theme)</span></a>
+      <a href="https://rockabledesign.com/">https://rockabledesign.com/ <span>(Wordpress Custom Theme)</span></a>
+      <a href="https://rockabledesign.com/v2/">https://rockabledesign.com/v2/ <span>(Wordpress Custom Theme)</span></a>
+      <a href="https://uptek.com/">https://uptek.com/ <span>(Custom: HTML, SCSS, Wordpress)</span></a>
+      <a href="https://www.nationalchildrensalliance.org/">https://www.nationalchildrensalliance.org/ <span>(Custom: HTML, SCSS, Wordpress)</span></a>
     </div>
 
     <div class="container">
       <h2>Other:</h2>
-      <a href="#">https://sctechglobal.com/ <span>(Custom: HTML, CSS, JS)</span></a>
-      <a href="#">https://softoo.co/ <span>(Custom: HTML, CSS, JS)</span></a>
-      <a href="#">https://www.farminbox.in/ <span>(Custom: HTML, CSS, React)</span></a>
-      <a href="#">https://gamefuse.co/ <span>(Custom: Ruby)</span></a>
-      <a href="#">https://opentools.io/ <span>(Custom: Tailwind, React)</span></a>
-      <a href="#">https://hamidkhatib.com/ <span>(Custom: HTML, CSS)</span></a>
-      <a href="#">https://sctechglobal.com/ <span>(Custom: HTML, CSS, JS)</span></a>
-      <a href="#">https://softoo.co/ <span>(Custom: HTML, CSS, JS)</span></a>
-      <a href="#">https://www.farminbox.in/ <span>(Custom: HTML, CSS, React)</span></a>
+      <a href="https://sctechglobal.com/">https://sctechglobal.com/ <span>(Custom: HTML, CSS, JS)</span></a>
+      <a href="https://softoo.co/">https://softoo.co/ <span>(Custom: HTML, CSS, JS)</span></a>
+      <a href="https://www.farminbox.in/">https://www.farminbox.in/ <span>(Custom: HTML, CSS, React)</span></a>
+      <a href="https://gamefuse.co/">https://gamefuse.co/ <span>(Custom: Ruby)</span></a>
+      <a href="https://opentools.io/">https://opentools.io/ <span>(Custom: Tailwind, React)</span></a>
+      <a href="https://hamidkhatib.com/">https://hamidkhatib.com/ <span>(Custom: HTML, CSS)</span></a>
+      <a href="https://sctechglobal.com/">https://sctechglobal.com/ <span>(Custom: HTML, CSS, JS)</span></a>
     </div>
 
     <div class="container">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-1.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-2.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-3.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-4.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-5.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-6.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-7.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-8.png" alt=""></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-9.png" alt=""></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-1.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-2.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-3.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-4.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-5.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-6.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-7.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-8.png" alt="Client Feedback"></div>
+          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-9.png" alt="Client Feedback"></div>
         </div>
       </div>
     </div>
