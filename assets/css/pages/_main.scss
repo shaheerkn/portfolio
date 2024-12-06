@@ -411,6 +411,21 @@ footer {
       }
     }
   }
+
+  @media (max-width: 760px) {
+    a {
+      font-size: 12px;
+    }
+
+    h2 {
+      color: #b0aaaa3d;
+      left: 10px;
+
+      &::after {
+        height: 10px;
+      }
+    }
+  }
 }
 
 

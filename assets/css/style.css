@@ -64,12 +64,6 @@ header {
 	z-index: 10;
 }
 
-@media (max-width: 768px) {
-	header {
-		background-color: #14121c;
-	}
-}
-
 nav {
 	justify-content: space-between;
 	padding-block: 30px;
@@ -273,6 +267,12 @@ header .social-icons {
 
 .reviews img {
 	max-width: 100%;
+}
+
+@media (max-width: 768px) {
+	.reviews {
+		grid-template-columns: 1fr;
+	}
 }
 
 html {
@@ -685,6 +685,19 @@ footer a {
 	}
 	.about-us a span {
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 760px) {
+	.about-us a {
+		font-size: 12px;
+	}
+	.about-us h2 {
+		color: #b0aaaa3d;
+		left: 10px;
+	}
+	.about-us h2::after {
+		height: 10px;
 	}
 }
 

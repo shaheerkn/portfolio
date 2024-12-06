@@ -53,3 +53,9 @@ header .social-icons {
 .reviews img {
   max-width: 100%;
 }
+
+@media (max-width: 768px) {
+  .reviews {
+    grid-template-columns: 1fr;
+  }
+}
