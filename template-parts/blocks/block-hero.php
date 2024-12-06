@@ -62,20 +62,4 @@
       <a href="https://hamidkhatib.com/">https://hamidkhatib.com/ <span>(Custom: HTML, CSS)</span></a>
       <a href="https://sctechglobal.com/">https://sctechglobal.com/ <span>(Custom: HTML, CSS, JS)</span></a>
     </div>
-
-    <div class="container">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-1.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-2.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-3.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-4.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-5.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-6.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-7.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-8.png" alt="Client Feedback"></div>
-          <div class="swiper-slide"><img src="<?php echo get_template_directory_uri()?>/assets/images/review-9.png" alt="Client Feedback"></div>
-        </div>
-      </div>
-    </div>
 </section>

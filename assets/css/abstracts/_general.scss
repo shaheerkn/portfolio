@@ -42,3 +42,14 @@ header .social-icons {
 .text-left {
   text-align: left;
 }
+
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-block: 100px;
+}
+
+.reviews img {
+  max-width: 100%;
+}
