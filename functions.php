@@ -139,9 +139,7 @@ add_action( 'widgets_init', 'shaheer_widgets_init' );
  */
 function shaheer_scripts() {
 	wp_enqueue_style( 'shaheer-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'theme', get_template_directory_uri() . '/assets/css/style.css', array(), _S_VERSION );
-	// wp_style_add_data( 'shaheer-style', 'rtl', 'replace' );
-
+	wp_enqueue_style( 'theme', get_template_directory_uri() . '/assets/css/style.css', array() );
 	wp_enqueue_script( 'gsap', get_template_directory_uri() . '/assets/js/gsap.min.js', ['jquery'], false, true );
 	wp_enqueue_script( 'swiper', get_template_directory_uri() . '/assets/js/swiper.js', ['jquery'], false, true );
   wp_enqueue_script( 'scrollTrigger', get_template_directory_uri() . '/assets/js/scrollTrigger.min.js', ['jquery'], false, true );
