@@ -1,26 +1,36 @@
 <?php
 /**
- * Template part for displaying posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * Template part for displaying posts (blog card)
  *
  * @package Shaheer
  */
-
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'blog-cards__card'); ?> >
-
-  <?php
-    if( has_post_thumbnail() ) :
-      $thumbnail_id = get_post_thumbnail_id( $post->ID );
-      $alt = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
-  ?>
-  <a href="<?php echo esc_url( get_permalink() ); ?>" class="blog-cards__img">
-    <img src=<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php echo $alt; ?>" class="img-fluid">
-  </a>
-  <?php endif; ?>
-  <div class="blog-cards__content">
-    <p class="post-tag"><?php get_template_part( 'template-parts/meta/post', 'tag' ); ?></p>
-    <?php the_title( '<h2><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );?>
-  </div>
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'blog-card' ); ?> role="listitem">
+	<a href="<?php echo esc_url( get_permalink() ); ?>" class="blog-card__link">
+		<?php if ( has_post_thumbnail() ) :
+			$thumbnail_id = get_post_thumbnail_id( $post->ID );
+			$alt = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
+		?>
+			<div class="blog-card__image">
+				<img src="<?php echo esc_url( get_the_post_thumbnail_url( $post, 'medium_large' ) ); ?>" alt="<?php echo esc_attr( $alt ); ?>">
+			</div>
+		<?php endif; ?>
+		<div class="blog-card__body">
+			<?php
+			$tags = get_the_tags();
+			if ( $tags ) : ?>
+				<div class="blog-card__tags">
+					<?php foreach ( $tags as $tag ) : ?>
+						<span class="post-tag"><?php echo esc_html( $tag->name ); ?></span>
+					<?php endforeach; ?>
+				</div>
+			<?php endif; ?>
+			<h3 class="blog-card__title"><?php the_title(); ?></h3>
+			<p class="blog-card__excerpt"><?php echo wp_trim_words( get_the_excerpt(), 20 ); ?></p>
+			<div class="blog-card__footer">
+				<time datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('M j, Y'); ?></time>
+				<span class="blog-card__arrow" aria-hidden="true">&nearr;</span>
+			</div>
+		</div>
+	</a>
 </article>

@@ -2,20 +2,18 @@
 /**
  * The template for displaying the footer
  *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
  * @package Shaheer
  */
-
 ?>
 </main>
-<footer>
-  <?php _e( 'Designed and coded by', 'shaheer'); ?> <a href="#" target="_blank"><?php _e( '@shaheer', 'shaheer'); ?></a>
+
+<footer class="footer" role="contentinfo">
+	<div class="container footer-inner">
+		<p>Designed & coded by Shaheer</p>
+		<p class="footer-year">&copy; <?php echo date('Y'); ?></p>
+	</div>
 </footer>
 
 <?php wp_footer(); ?>
-
 </body>
 </html>

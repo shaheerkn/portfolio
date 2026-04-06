@@ -2,27 +2,20 @@
 /**
  * The template for displaying 404 pages (not found)
  *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
  * @package Shaheer
  */
 
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found blog-cards container">
-			<div class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'shaheer' ); ?></h1>
-      </div><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'shaheer' ); ?></p>
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
+<section class="section error-page">
+	<div class="container error-page__content">
+		<h2 class="section-label">404</h2>
+		<p class="section-heading">Page not found<span class="accent">.</span></p>
+		<p>The page you're looking for doesn't exist or has been moved.</p>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="btn btn-primary">Back to Home</a>
+	</div>
+</section>
 
 <?php
 get_footer();
