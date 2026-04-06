@@ -144,7 +144,7 @@ function shaheer_scripts() {
 		return;
 	}
 
-	wp_enqueue_style( 'theme', get_template_directory_uri() . '/assets/css/style.css', array(), _S_VERSION );
+	wp_enqueue_style( 'theme', get_stylesheet_uri(), array(), _S_VERSION );
 }
 add_action( 'wp_enqueue_scripts', 'shaheer_scripts' );
 
