@@ -40,6 +40,7 @@
       <a href="#work">Work</a>
       <a href="#reviews">Reviews</a>
       <a href="#about">About</a>
+      <a href="<?php echo esc_url( home_url( '/fun-projects/' ) ); ?>">Fun</a>
       <a href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ); ?>">Blog</a>
       <a href="https://www.upwork.com/freelancers/muhammads2657" target="_blank" rel="noopener noreferrer" class="nav-cta" aria-label="Hire me on Upwork">Hire Me</a>
     </div>
@@ -434,11 +435,17 @@
         </div>
 
         <div class="video-testimonials">
-          <h3 class="video-testimonials-title">Video Testimonial</h3>
+          <h3 class="video-testimonials-title">Video Testimonials</h3>
           <div class="video-grid">
             <div class="video-card">
-              <video controls preload="metadata" playsinline aria-label="Client video testimonial">
+              <video controls preload="metadata" playsinline aria-label="Client video testimonial 1">
                 <source src="<?php echo esc_url( get_template_directory_uri() . '/assets/videos/video1.mp4' ); ?>" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="video-card">
+              <video controls preload="metadata" playsinline aria-label="Client video testimonial 2">
+                <source src="<?php echo esc_url( get_template_directory_uri() . '/assets/videos/video2.mp4' ); ?>" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -474,11 +481,11 @@
             <span class="stat-label">Projects Shipped</span>
           </div>
           <div class="stat" role="listitem">
-            <span class="stat-number">10+</span>
+            <span class="stat-number">20+</span>
             <span class="stat-label">Shopify Stores</span>
           </div>
           <div class="stat" role="listitem">
-            <span class="stat-number">6+</span>
+            <span class="stat-number">10+</span>
             <span class="stat-label">WordPress Sites</span>
           </div>
         </div>

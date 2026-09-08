@@ -25,6 +25,7 @@
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>#work">Work</a>
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>#reviews">Reviews</a>
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>#about">About</a>
+		<a href="<?php echo esc_url( home_url( '/fun-projects/' ) ); ?>"<?php if ( is_page_template( 'page-templates/fun-projects.php' ) ) echo ' class="nav-link-active"'; ?>>Fun</a>
 		<a href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ); ?>"<?php if ( is_home() || is_archive() || is_single() || is_search() ) echo ' class="nav-link-active"'; ?>>Blog</a>
 		<a href="https://www.upwork.com/freelancers/muhammads2657" target="_blank" rel="noopener noreferrer" class="nav-cta" aria-label="Hire me on Upwork">Hire Me</a>
 	</div>

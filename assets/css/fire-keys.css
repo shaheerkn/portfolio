@@ -20,6 +20,8 @@
   .brand b{background:linear-gradient(90deg,var(--hot2),var(--hot));-webkit-background-clip:text;background-clip:text;color:transparent}
   .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--hot);box-shadow:0 0 12px var(--hot);animation:pulse 1.6s infinite}
   @keyframes pulse{50%{opacity:.25}}
+  .back-fun{margin-left:8px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);text-decoration:none;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:#0d0f15;transition:color .18s,border-color .18s}
+  .back-fun:hover{color:#fff;border-color:var(--hot)}
   .stats{margin-left:auto;display:flex;gap:10px;flex-wrap:wrap}
   .stat{min-width:76px;padding:5px 12px;border:1px solid var(--line);border-radius:8px;background:#0d0f15;text-align:center}
   .stat span{display:block;font-size:9px;letter-spacing:.16em;color:var(--dim)}

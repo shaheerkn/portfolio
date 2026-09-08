@@ -49,6 +49,7 @@ add_action(
 
   <header>
     <div class="brand"><span class="dot"></span><b>FIRE&nbsp;KEYS</b></div>
+    <a class="back-fun" href="<?php echo esc_url( home_url( '/fun-projects/' ) ); ?>">← Fun Projects</a>
     <div class="stats">
       <div class="stat wpn"><span>WEAPON</span><b id="sWpn">—</b></div>
       <div class="stat"><span>SHOTS</span><b id="sShots">0</b></div>

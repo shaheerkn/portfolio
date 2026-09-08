@@ -144,6 +144,11 @@ function shaheer_scripts() {
 		return;
 	}
 
+	if ( is_page_template( 'page-templates/fun-projects.php' ) ) {
+		wp_enqueue_style( 'fun-projects', get_template_directory_uri() . '/assets/css/fun-projects.css', array(), _S_VERSION );
+		return;
+	}
+
 	wp_enqueue_style( 'theme', get_stylesheet_uri(), array(), _S_VERSION );
 }
 add_action( 'wp_enqueue_scripts', 'shaheer_scripts' );
