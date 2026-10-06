@@ -138,6 +138,9 @@ add_action( 'widgets_init', 'shaheer_widgets_init' );
  * Enqueue scripts and styles.
  */
 function shaheer_scripts() {
+	wp_enqueue_style( 'mascot', get_template_directory_uri() . '/assets/css/mascot.css', array(), _S_VERSION );
+	wp_enqueue_script( 'mascot', get_template_directory_uri() . '/assets/js/mascot.js', array(), _S_VERSION, true );
+
 	if ( is_front_page() ) {
 		wp_enqueue_style( 'front-page', get_template_directory_uri() . '/assets/css/front-page.css', array(), _S_VERSION );
 		wp_enqueue_script( 'front-page', get_template_directory_uri() . '/assets/js/front-page.js', array(), _S_VERSION, true );

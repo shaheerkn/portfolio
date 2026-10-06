@@ -49,6 +49,18 @@
   <main id="main">
     <section class="hero" aria-label="Introduction">
       <div class="hero-content">
+        <button
+          type="button"
+          class="mascot mascot--hero"
+          aria-label="Boop the mascot"
+          data-directions="<?php echo esc_url( get_template_directory_uri() . '/assets/mascots/shaheer-directions.webp' ); ?>"
+          data-reactions="<?php echo esc_url( get_template_directory_uri() . '/assets/mascots/shaheer-reactions.webp' ); ?>"
+        >
+          <span class="mascot-squash">
+            <span class="mascot-layer mascot-layer--directions"></span>
+            <span class="mascot-layer mascot-layer--reactions"></span>
+          </span>
+        </button>
         <p class="hero-greeting">Hi, I'm Shaheer</p>
         <h1 class="hero-title">I build things<br>for the web<span class="accent">.</span></h1>
         <p class="hero-subtitle">Frontend Developer & Shopify Specialist crafting aesthetic, high-quality digital experiences — from concept to code.</p>
