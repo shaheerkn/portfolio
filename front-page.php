@@ -63,7 +63,7 @@
         </button>
         <p class="hero-greeting">Hi, I'm Shaheer</p>
         <h1 class="hero-title">I build things<br>for the web<span class="accent">.</span></h1>
-        <p class="hero-subtitle">Frontend Developer & Shopify Specialist crafting aesthetic, high-quality digital experiences — from concept to code.</p>
+        <p class="hero-subtitle">Shopify and Frontend Developer, high-quality digital experiences — from concept to code.</p>
         <div class="hero-actions">
           <a href="#work" class="btn btn-primary">View My Work</a>
           <a href="https://www.upwork.com/freelancers/muhammads2657" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Hire me on Upwork">Hire Me</a>
@@ -85,20 +85,20 @@
 
         <div class="projects-grid" role="list">
 
-          <a href="https://www.ancientwarrior.co.uk" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="Ancient Warrior - Shopify store">
+        <a href="https://joovv.com" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="Joovv - Shopify store">
             <div class="project-info">
               <span class="project-tag">Shopify</span>
-              <h3>Ancient Warrior</h3>
-              <p>UK-based Shopify store for a warrior-themed brand.</p>
+              <h3>Joovv</h3>
+              <p>An online store selling red light therapy devices and accessories.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
 
-          <a href="https://joovv.com" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="Joovv - Shopify store">
+          <a href="https://www.ancientwarrior.co.uk" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="Ancient Warrior - Shopify store">
             <div class="project-info">
               <span class="project-tag">Shopify</span>
-              <h3>Joovv</h3>
-              <p>Custom Shopify storefront for a leading red light therapy brand.</p>
+              <h3>Ancient Warrior</h3>
+              <p>An online store selling replica swords, lightsabers, and fantasy collectibles.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -112,11 +112,11 @@
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
 
-          <a href="https://flybean.com" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="FlyBean - Shopify store">
+          <a href="https://www.huksie.com/" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="FlyBean - Shopify store">
             <div class="project-info">
               <span class="project-tag">Shopify</span>
-              <h3>FlyBean</h3>
-              <p>Shopify build for a specialty coffee brand.</p>
+              <h3>Huksie</h3>
+              <p>Shopify theme for a premium indoor wall game meticulously crafted for basements, and places people gather.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -134,7 +134,7 @@
             <div class="project-info">
               <span class="project-tag">Shopify</span>
               <h3>PixieWing</h3>
-              <p>Playful and vibrant Shopify store.</p>
+              <p>Store to showcase collections and make it easy for customers to browse products and purchase their favorite pieces.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -143,7 +143,7 @@
             <div class="project-info">
               <span class="project-tag">Shopify</span>
               <h3>StockyardX</h3>
-              <p>Bold e-commerce build for a modern brand.</p>
+              <p>An online store selling handcrafted leather goods and accessories.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -229,20 +229,11 @@
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
 
-          <a href="https://hartleyandharbour.com" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="Hartley and Harbour - Shopify store">
-            <div class="project-info">
-              <span class="project-tag">Shopify</span>
-              <h3>Hartley & Harbour</h3>
-              <p>Elegant Shopify store for a lifestyle brand.</p>
-            </div>
-            <span class="project-arrow" aria-hidden="true">&nearr;</span>
-          </a>
-
           <a href="https://pinpinpin.it" target="_blank" rel="noopener noreferrer" class="project-card" data-category="shopify" role="listitem" aria-label="PinPinPin - Shopify store">
             <div class="project-info">
               <span class="project-tag">Shopify</span>
               <h3>PinPinPin</h3>
-              <p>Fun and vibrant Shopify store for enamel pins.</p>
+              <p>An online store selling art-inspired pins, keychains, and magnets.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -251,7 +242,7 @@
             <div class="project-info">
               <span class="project-tag">Webflow</span>
               <h3>Unvault</h3>
-              <p>Marketing website built on Webflow.</p>
+              <p>Unvault, a website offering jewelry valuations, value tracking, and online selling services.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -260,7 +251,7 @@
             <div class="project-info">
               <span class="project-tag">React &middot; Tailwind &middot; shadcn</span>
               <h3>Unvault App</h3>
-              <p>Web app built with React, Tailwind, and shadcn/ui.</p>
+              <p>Web app built with React, Tailwind, and shadcn/ui. Offering jewelry valuations</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -269,7 +260,7 @@
             <div class="project-info">
               <span class="project-tag">HTML &middot; CSS &middot; JS</span>
               <h3>Nuema Life</h3>
-              <p>Clean lifestyle brand website.</p>
+              <p>NUEMA, a website connecting parents with community support, wellness practitioners, and parenting resources.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -278,7 +269,7 @@
             <div class="project-info">
               <span class="project-tag">React</span>
               <h3>FarmInBox</h3>
-              <p>Farm-to-table platform built with React.</p>
+              <p>A website showcasing hydroponically grown vegetables and home delivery services in Delhi-NCR.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -296,7 +287,7 @@
             <div class="project-info">
               <span class="project-tag">HTML &middot; CSS &middot; JS</span>
               <h3>SC Tech Global</h3>
-              <p>Corporate technology company website.</p>
+              <p>A company website showcasing telecom infrastructure, power solutions, and remote technical services.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -305,7 +296,7 @@
             <div class="project-info">
               <span class="project-tag">HTML &middot; CSS &middot; JS</span>
               <h3>Softoo</h3>
-              <p>Clean and modern software company website.</p>
+              <p>A company website showcasing software development, technology consulting, and digital engineering services.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -314,7 +305,7 @@
             <div class="project-info">
               <span class="project-tag">WordPress</span>
               <h3>Arprive</h3>
-              <p>Custom WordPress theme for a premium brand.</p>
+              <p>A luxury hospitality website showcasing curated villas, chalets, and bespoke concierge services.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -323,7 +314,7 @@
             <div class="project-info">
               <span class="project-tag">WordPress</span>
               <h3>LetsBackflip</h3>
-              <p>Custom WordPress theme development.</p>
+              <p>A creative agency website showcasing video production, branding, and digital marketing services.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -332,7 +323,7 @@
             <div class="project-info">
               <span class="project-tag">WordPress</span>
               <h3>Wishin</h3>
-              <p>Custom WordPress theme for a non-profit.</p>
+              <p>A website showcasing Wisconsin’s statewide health information exchange services and resources.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -341,7 +332,7 @@
             <div class="project-info">
               <span class="project-tag">WordPress &middot; SCSS</span>
               <h3>Uptek</h3>
-              <p>Corporate site built with HTML, SCSS & WordPress.</p>
+              <p>An agency website showcasing Shopify design, development, and ecommerce services.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -350,7 +341,7 @@
             <div class="project-info">
               <span class="project-tag">WordPress &middot; SCSS</span>
               <h3>National Children's Alliance</h3>
-              <p>Non-profit organization website on WordPress.</p>
+              <p>A nonprofit website supporting Children’s Advocacy Centers and families affected by child abuse.</p>
             </div>
             <span class="project-arrow" aria-hidden="true">&nearr;</span>
           </a>
@@ -493,7 +484,7 @@
             <span class="stat-label">Projects Shipped</span>
           </div>
           <div class="stat" role="listitem">
-            <span class="stat-number">20+</span>
+            <span class="stat-number">30+</span>
             <span class="stat-label">Shopify Stores</span>
           </div>
           <div class="stat" role="listitem">
